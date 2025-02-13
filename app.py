@@ -20,7 +20,7 @@ def chat():
     }
 
     payload = {
-        "model": "mistral",  # You can also try "llama3" or "mixtral"
+        "model": "mistral",  # We can also try "llama3" or "mixtral"
         "messages": [{"role": "user", "content": user_message}]
     }
 
